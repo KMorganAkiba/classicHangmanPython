@@ -1,0 +1,5 @@
+print ('hello world')
+file = open('puzzles.txt', 'r')
+read_file = file.readlines()
+print (read_file)
+file.close()
